@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>photo|ザ コルク</title>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="photograph">
+
+  <!--header始まり-->
+  <header>
+  <nav class="headerContainer">
+    <div class="logo">
+      <a href="index.html"><img class="cork_logo" src="images/the_corklogo.png" alt="logo"></a>
+    </div>
+      <ul class="global-nav">
+        <li><a href="news.html">News</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li><a href="works_photo.html">Works&Photo</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Goods</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="sp-menu">
+        <span class="material-icons white" id="open">widgets</span>
+      </div>
+  </nav>
+  </header>
+  <!--header終わり-->
+   <!-- ハンバーガーメニュー始まり -->
+   <div class="overlay">
+    <span class="material-icons" id="close">disabled_by_default</span>
+    <nav>
+      <ul>
+        <li><a href="news.html">News</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li style = "line-height: 1.2;"><a href="works_photo.html">Works<br>&<br>Photo</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Goods</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+    <!-- ハンバーガーメニュー終わり -->
+
+
+  <!--wrap始まり-->
+  <div id="wrap" class="clearfix" style="width: 70%; margin: 30px auto;">
+    <div class="content clearfix" style="margin-bottom: 0;">
+      <div class="slideshow ">
+      <main style = "width: 100%; text-align: center">
+        <img id="main_photo">
+
+        <nav>
+            <ul>
+                <li id="play">Play</li>
+                <li id="prev">&lt;</li>
+                <li id="next">&gt;</li>
+            </ul>
+        </nav>
+
+        <ul class="thumbnails">
+            <!-- <li class="current"><img src="images/slideshow/slideshow1.jpg"></li>
+            <li><img src="images/slideshow/slideshow2.jpg"></li>
+            <li><img src="images/slideshow/slideshow3.jpg"></li>
+            <li><img src="images/slideshow/slideshow4.jpg"></li>
+            <li><img src="images/slideshow/slideshow5.jpg"></li>
+            <li><img src="images/slideshow/slideshow6.jpg"></li>
+            <li><img src="images/slideshow/slideshow7.jpg"></li>
+            <li><img src="images/slideshow/slideshow8.jpg"></li> -->
+        </ul>
+     </main>
+     <script src="js/slide.js"></script>
+    </div>
+      <aside class="sidebar">
+        <section>
+          <h2>LIVE SCENE</h2>
+          <ul>
+            <li><a href="photograph.html#kichijouji">Kichijouji LIVE</a></li>
+            <li><a href="photograph.html#shibuya">Shibuya LIVE</a></li>
+            <li><a href="photograph.html#artist">Artist photo</a></li>
+          </ul>
+        </section>
+        <!-- <section>
+          <h2>Video</h2>
+          <ul>
+            <li><a href="video.html#movie">Movie</a></li>
+            <li><a href="video.html#short-film">Short film</a></li>
+          </ul>
+        </section> -->
+      </aside>
+    </div>
+  </div>
+  <!--wrap終わり-->
+
+  <!--footer始まり-->
+  <footer>
+    <small>(C)2021 the cork.</small>
+  </footer>
+  <!--footer終わり-->
+  <!-- js始まり -->
+  <script src="js/menu.js"></script>
+  <!-- js終わり -->
+</body>
+</html>

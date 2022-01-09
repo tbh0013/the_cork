@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>contact｜ザ コルク</title>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="contact">
+
+  <!--header始まり-->
+  <header>
+    <nav class="headerContainer">
+      <div class="logo">
+        <h1><a href="index.html"><img class="cork_logo" src="images/the_corklogo.png" alt="logo"></a></h1>
+      </div>
+        <ul class="global-nav">
+          <li><a href="news.html">News</a></li>
+          <li><a href="live.html">Live</a></li>
+          <li><a href="works_photo.html">Works&Photo</a></li>
+          <li><a href="biography.html">Biography</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="goods.html">Goods</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="sp-menu">
+          <span class="material-icons white" id="open">widgets</span>
+        </div>
+    </nav>
+  </header>
+  <!--header終わり-->
+  <!-- ハンバーガーメニュー始まり -->
+  <div class="overlay">
+    <span class="material-icons" id="close">disabled_by_default</span>
+    <nav>
+      <ul>
+        <li><a href="news.html">News</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li style = "line-height: 1.2;"><a href="works_photo.html">Works<br>&<br>Photo</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="goods.html">Goods</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+    <!-- ハンバーガーメニュー終わり -->
+
+  <!--wrap始まり-->
+  <div id="wrap">
+    <div class="content">
+      <div class="main-center">
+        <h1>Contact</h1>
+        <p>楽曲の使用、イベント出演依頼、取材依頼等に関するお問い合わせは下記アドレスまでお送りください。<br>
+            ※お問い合わせ内容によってはご回答差し上げられない場合もございます。</p>
+        <!-- <section class="access clearfix">
+          <h2 class="icon">Access</h2>
+          <table>
+            <tr>
+              <th>所在地住所</th>
+              <td>〒123-4567<br>静岡県伊東市伊豆高原〇△☆-12</td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td>012-3456-7890</td>
+            </tr>
+            <tr>
+              <th>電車でのアクセス</th>
+              <td>伊豆急行｢伊豆高原｣駅より徒歩15分</td>
+            </tr>
+            <tr>
+              <th>お車でのアクセス</th>
+              <td>伊豆山I.Cより国道135号線経由で50分</td>
+            </tr>
+          </table>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26180.61822900587!2d139.09634125918575!3d34.891959894669604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5LyK6LGG6auY5Y6f6aeF!5e0!3m2!1sja!2sjp!4v1609032916077!5m2!1sja!2sjp" width="460" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        <section> -->
+          <h2 class="icon">Contact form</h2>
+          <div class="form">
+            <form>
+              <dl>
+                <dt><span class="required">お名前</span></dt>
+                <dd><input type="text" name="name" class="name" required></dd>
+                <dt><span class="required">メールアドレス</span></dt>
+                <dd><input type="email" name="email" class="email" required</dd>
+                <dt>お電話番号</dt> 
+                <dd><input type="tel" name="tel" class="tel"></dd>
+                <dt>お問い合わせ種別</dt>
+                <dd>
+                  <select name="type" class="type">
+                    <option value="楽曲の使用">楽曲の使用</option>
+                    <option value="イベント・各種メディア出演のご依頼">イベント・各種メディア出演のご依頼</option>
+                    <option value="その他お問い合わせ">その他お問い合わせ</option>
+                  </select>
+                </dd>
+                <!-- <dt>ご希望のご連絡方法</dt>
+                <dd>
+                  <input type="radio" name="contact" value="Eメール">Eメール
+                  <input type="radio" name="contact" value="お電話">お電話
+                </dd> -->
+                <dt>メッセージ</dt>
+                <dd><textarea name="message" class="message"></textarea></dd>
+              </dl>
+              <button type="submit" class="btn">送信</button>
+            </form>
+            <div class="attention">
+              <p>※｢<span class="required"></span>｣の付いている項目は必須項目です。<br>
+                <!-- ※メッセージ送信後、48時間以内に担当者よりご連絡致します。</p> -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!--wrap終わり-->
+
+  <!--footer始まり-->
+  <footer>
+    <small>(C)2021 the cork.</small>
+  </footer>
+  <!--footer終わり-->
+  <!-- js始まり -->
+  <script src="js/menu.js"></script>
+  <!-- js終わり -->
+</body>
+</html>
