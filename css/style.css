@@ -7,7 +7,6 @@
 
 body {
   margin: 0 20px;
-  /* background-color: #000000; */
   color: #333333;
   font-size: 15px;
   line-height: 2;
@@ -22,9 +21,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  transition: background-image 1.5S ease; /*背景画像をゆっくり変化させる*/
+  transition: background-image 1.5S ease;
   height: auto;
-} 
+}
 
 #index::before {
   position:fixed;
@@ -48,24 +47,15 @@ body {
 
 #index #wrap {
   background-color: transparent;
-  /*margin-top: 0;*/
   padding: 0;
+  margin: 0;
 }
 
-
-
-
-
-/* p,h1,h2,h3,h4,h5,h6 { */
-  /* margin-top: 0;
-} */
 
 
 /*----------------------
   header
 -----------------------*/
-
-
 
 .cork_logo {
   vertical-align: bottom;
@@ -98,9 +88,6 @@ header {
   width:  100%;
   height: 100px;
   margin: 0 auto;
-  /* display: flex; */
- /* background-color: pink; */
-  /*background-color: #efefef;*/
 }
 
 .headerContainer {
@@ -121,21 +108,17 @@ header {
   flex: auto;
   text-align: right;
   z-index: 1;
-  /* display: flex;  */
-  
-  /* justify-content: space-around; */
   margin: 0;
 }
 
 .global-nav li {
   text-align: center;
   display: inline-block;
-  /* width: calc(14% - 8px); */
   font-size: 20px;
   list-style: none;
   font-family: 'Bitter', serif;
   margin:0 0 0 3%;
-} 
+}
 
 .global-nav li a {
   color: #ffffff;
@@ -161,7 +144,7 @@ header {
 #wrap {
   position:relative;
   clear: both;
-  background-color: white; 
+  background-color: white;
   margin-top: 30px;
   padding:35px 0;
   z-index: 1;
@@ -174,8 +157,6 @@ header {
 .content {
   width: calc(100% - 50px);
   margin: 0 auto;
-  /*background-color: blue;*/
-  /* padding-bottom: 200px; */
   margin-bottom: 400px;
 }
 
@@ -186,14 +167,9 @@ header {
   color: white;
   justify-content: space-around;
   width: 100%;
-  /* position: relative;
-  top: 300px; */
-  /*list-style: none;*/
 }
 
 #banner .comedy, .radio, .goods {
-  /* border: solid;
-  border-spacing: 5px; */
   width: 30%;
   z-index: 1;
 }
@@ -205,7 +181,6 @@ header {
 #movie {
   float: right;
   padding-bottom: 20px;
-  /* border: solid white; */
   position: relative;
   top: 300px;
 }
@@ -214,8 +189,6 @@ footer {
   text-align: center;
   color: #ffffff;
   padding: 20px 0;
-  
-  /* background-color: #767671 */
 }
 
 footer small {
@@ -223,16 +196,6 @@ footer small {
   font-size: 12px;
   z-index: 1;
 }
-
-
-
-/* index編集後
-#index .content {
-  margin-top: 130px;
-}
-*/
-
-
 
 .btn a {
   background-color: #009cd3;
@@ -255,21 +218,6 @@ footer small {
   color: #009cd3
 }
 
-/* #index footer {
-  margin: 200px 15px 0 15px;
-  text-align: left;
-  background-color: transparent;
-  background-color: tomato; 
-} */
-
-
-/* #index > div {
-  top: 0 !important;
-  background-size: cover!important;
-  background-position: center center!important;
-} */
-
-
 .bg_tit {
   font-size: 36px;
 }
@@ -286,7 +234,7 @@ footer small {
   background-size: cover;
   opacity: 0.9;
 }
-  
+
 #news::after {
   position: absolute;
   content: '';
@@ -377,12 +325,12 @@ footer small {
   background-color: black;
   color: white;
 }
-/* ここからバイオグラフィーCSS */
+/* ここからbiography CSS */
 
 #wrap_biography {
   position:relative;
   clear: both;
-  background-color: rgba(255, 255, 255,0.9); 
+  background-color: rgba(255, 255, 255,0.9);
   margin-top: 30px;
   padding:35px 0;
   z-index: 1;
@@ -419,7 +367,6 @@ footer small {
 h1 {
   font-family: 'Bitter', serif;
   font-size: 36px;
-   /* border-bottom: 1px solid #cccccc; */
 }
 
 h2 {
@@ -463,6 +410,12 @@ h2 {
 
 section {
   margin-bottom: 35px;
+}
+
+.profile-text {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #about .career th {
@@ -520,12 +473,6 @@ table {
   margin-right: 15px;
 }
 
-
-/* #works {
-  /* background-color: pink; 
-}*/
-
-
 #works ul {
   display: flex;
 }
@@ -558,7 +505,6 @@ a img:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* background-size: 100% auto; */
 }
 
 
@@ -582,14 +528,6 @@ a img:hover {
 #photograph .photograph-list li:nth-child(3n) {
   margin-right: 0;
 }
-
-/* #video {
-    background-image: url(../images/bg-video.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: 100% auto;
-} */
 
 /*ここからblog css*/
 #blog {
@@ -649,7 +587,7 @@ a img:hover {
 
 #home main h2:before,
 #home main h2:after{
-  border-top: none; /*挿入したボーダーを消す*/
+  border-top: none;
 }
 
 #news dl,#info dl{
@@ -659,7 +597,7 @@ a img:hover {
 
 #news dt, #news dd,
 #info dt, #info dd{
-  line-height: 1.5;/*行の高さを変える*/
+  line-height: 1.5;
 }
 
 #news dt, #info dt{
@@ -700,7 +638,7 @@ a img:hover {
 }
 
 
-/* ここからコンタクト */
+/* ここからcontact css */
 #contact {
   position: relative;
   background-image: url(../images/bg-contact.jpg);
@@ -720,26 +658,6 @@ a img:hover {
   bottom: 0;
   margin:-24px -20px 0;
 }
-
-/* #contact .access table {
-  float: left;
-} */
-
-/* #contact .access th,
-#contact .access td {
-  text-align: left;
-  vertical-align: top;
-  line-height: 2.5;
-}
-
-#contact .access td{
-  padding-left: 30px;
-}
-
-#contact .access iframe {
-  width: 460px;
-  float: right;
-} */
 
 #contact .form {
   background-color: #eaeaea;
@@ -794,7 +712,6 @@ a img:hover {
   border: 3px solid #009cd3;
   margin-top: 30px;
   position: relative;
-  /* margin-left: 165px; */
 }
 
 #contact .form button:hover {
@@ -808,9 +725,6 @@ a img:hover {
   color: #ff0000;
 }
 
-/* #contact .form .attention {
-  margin: 20px 0 0 165px; 
-} */
 
 /* ここからphotoページCSS */
 main {
@@ -887,16 +801,8 @@ main nav li:hover {
   width: 56px;
 }
 
-@media screen and (max-width:959px) { 
+@media screen and (max-width:959px) {
 /*画面サイズが960px未満の場合に適用　タブレット*/
-
-
-#index {
-  background-position: 0;
-  background-image: none;
-}
-
-/* グローバルメニューCSS */
 .global-nav {
   display: flex;
   flex-wrap: wrap;
@@ -910,7 +816,7 @@ main nav li:hover {
 }
 
 
-/* バナーCSS */
+/* banner CSS */
 
 #banner .comedy, .radio, .goods {
   width: 100%;
@@ -920,17 +826,14 @@ main nav li:hover {
 
 #banner ul {
   list-style: none;
-  /* display: block; */
 }
-
-
 
 #banner img {
   width: 100%;
 }
 
 
-/* ここからgoods */
+/* goods css */
 .goods_items {
   width: calc(33% - 13px);
 }
@@ -943,7 +846,7 @@ main nav li:hover {
   margin-right: 20px;;
 }
 
-/* ここからコンタクト */
+/* contact css */
 
 #contact .form dl dt {
   width:165px;
@@ -1007,22 +910,15 @@ main nav li:hover {
   color: #ff0000;
 }
 
+}
+
 @media screen and (max-width:519px){
   /* 画面サイズが520px未満の時に適用 */
 
-  /* 背景CSS */
+  /* back-ground CSS */
   #index {
-    /* background-image: none; */
     margin: 0 auto;
   }
-
-  #index::before{
-    background-color: transparent;
-  }
-
-  /* #index::after{
-    display: none;
-  } */
 
   #index::after {
     display: none;
@@ -1032,40 +928,39 @@ main nav li:hover {
     margin-bottom: 0;
   }
 
-  /* .media_back li  {
-    display: block;
-    width: 100%;
-    height: auto;
-  } */
+  #media_back{
+    background-image: url(../images/main_backimg1.jpg);
+    background-size: contain;
+    transition: background-image 1.5S ease;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 
-  /* .
-  _back {
-    position: relative;
-  } */
+  .global-nav {
+    display: none;
+  }
 
-  /* スライドcss */
-  .media_back::after {
+  /* slide css */
+  #media_back::after {
     content: "";
     display: block;
     padding-bottom: 66.6%;
   }
 
-  .media_back ul{
+  #media_back ul{
     position: relative;
-  } 
+  }
 
-  .media_back li{
+  #media_back li{
     display: block;
     position: absolute;
     width: 100%;
-    
   }
 
   .cork_media {
     width: 100%;
   }
 
-  /* ヘッダーCSS */
+  /* header CSS */
   #index header {
     position: absolute;
     left: 0;
@@ -1075,27 +970,28 @@ main nav li:hover {
   .headerContainer {
     justify-content: space-between;
     margin: 0;
-    /* width: 100%; */
   }
 
-  /* バナーcss */
+  /* #wrap_sp css */
+  #wrap_sp {
+    background-color:#001100;
+    padding-top: 50px;
+  }
+
+  /* banner css */
+
+  #banner {
+    margin: 0;
+  }
 
   #banner ul {
     display: block;
   }
 
-
-  /* .main_visual {
-    display: block;
-    width: 100%;
-  } */
-
-
-
-  /* メニューCSS */
+  /* menuCSS */
 .global-nav li {
   display: none;
-} 
+}
 
 .sp-menu {
   position: relative;
@@ -1161,13 +1057,11 @@ main nav li:hover {
   top: -20px;
 }
 
-/* フッターCSS */
-footer {
-  color: black;
+/* footer CSS */
+.top_footer {
+  color: white;
+  background-color: black;
 }
-
-
-/* newsページCSS */
 
 /* photoページのサムネイル箇所css  */
 .thumbnails {
@@ -1175,7 +1069,7 @@ footer {
   justify-content: center;
 }
 
-/* ここからgoods */
+/* goods css */
 .goods_items{
   width: calc(50% - 10px);
   }
@@ -1187,93 +1081,6 @@ footer {
   .goods_items:nth-child(2n) {
     margin-right: 0;
   }
-  
-}
-
 
 }
-
-
-
-/* .global-nav li a {
-  color: #ffffff;
-}
-
-.global-nav li a:hover {
-  border-bottom: 2px solid #ffffff;
-  padding-bottom: 3px;
-  text-decoration: none;
-} */
-
-
-  /* body {
-   font-size: 3.5vw;
- }
-
- h1 {
-   font-size: 7.2vw;
- }
-
- h2 {
-   font-size: 6vw;
- }
-
- header {
-   width: auto;
-   margin: 0 5%
- }
-
- .logo {
-   float: none;
-   
-   text-align: center;
- }
-
- .global-nav {
-   float: none;
-   margin-top: 40px;
-   text-align: center;
- }
-
- .global-nav li {
-   display: inline;
-   float: none;
-   margin: 0 8px;
- }
-
-#wrap {
-  width: 100%;
-  margin-top: 40px;
-  padding: 35px 0 0;
-  background-color: lawngreen;
-}
-
-.content {
-  width: 100%;
-  height: auto;
-}
-
-.main {
-  float: none;
-  width: auto;
-  margin: 0 5%;
-}
-
-h2 img{
-  max-width: 100%;
-}
-
-#portfolio {
-  background-image: url(../images/bg-portfolio-sp.jpg);
-}
-
-.sidebar {
-  width: auto;
-  float: none;
-  margin: 0;
-  padding: 30px 10% 10px;
-  background-color: #f7f6f4;
-}  */
-
-/* メディアクエリ350px */
 

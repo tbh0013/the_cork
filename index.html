@@ -4,35 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width",initial-scale="1">
 <title>｢ザ コルク｣Official Website</title>
-<!-- <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet"> -->
-<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/index_slide_top.js"></script>
 <script src="js/index_slide_sp.js"></script>
-<!-- <script src="js/jquery.bgswitcher.js"></script> -->
-
-<link href="favicon.ico" rel="shortcut icon">
 </head>
 <body id="index">
-  <!-- <ul>
-    <li><img src="images/main_backimg3.jpg" alt="img1"></li>
-  </ul> -->
-  <div class="media_back">
-    <div class="cork_sp">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <!-- <li><img class="cork_media" src="images/main_backimg1.jpg"></li>
-        <li><img class="cork_media" src="images/main_backimg2.jpg"></li>
-        <li><img class="cork_media" src="images/main_backimg3.jpg"></li> 
-        <li><img class="cork_media" src="images/main_backimg4.jpg"></li>  -->
-        <!-- <li><img class="cork_media" src="images/main_backimg5s.jpg"></li>  -->
-      </ul>
-    </div>
+  <div id="media_back">
   <!--header始まり-->
     <header>
       <nav class="headerContainer">
@@ -54,7 +34,7 @@
           </div>
       </nav>
       <!-- </nav> -->
-    </header> 
+    </header>
   </div>
     <!--header終わり-->
       <!-- ハンバーガーメニュー始まり -->
@@ -74,30 +54,23 @@
     </div>
     <!-- ハンバーガーメニュー終わり -->
     <!--wrap始まり-->
-    <div id="wrap">
-      <div class="content">
-          <img class="main_visual" src = "images/main_backimg3.jpg">
-        <!-- <p>4人組ロックバンド｢ザ コルク｣の公式ホームページです。<br>ハイトーンボイスなボーカルとポップなメロディーが特徴的なバンド。</p>　 -->
-      <!--<p class="btn"><a href="works.html">Works&Photo</a></p>--> 
-      <!-- <section id="movie">
-        <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/pwJIt_BkPJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </section> -->
+    <div id="wrap_sp">
+      <div id="wrap">
+        <div class="content">
+        </div>
+        <section id="banner">
+          <ul>
+            <li class="radio"><a href="https://www.youtube.com/"><img src="images/radio_banner.png"></a></li>
+            <li class="goods"><a href="goods.html"><img src="images/goods_banner.png"></a></li>
+            <li class="comedy"><a href="https://twitter.com/"><img src="images/comedy_banner.png"></a></li>
+          </ul>
+        </section>
       </div>
-      
-      <section id="banner">
-        <ul>
-          <li class="comedy"><a href="#"><img src="images/radio_banner.png"></a></li>
-          <li class="radio"><a href="#"><img src="images/goods_banner.png"></a></li>
-          <li class="goods"><a href="#"><img src="images/comedy_banner.png"></a></li>
-        </ul>
-      </section>
-      
-      
     </div>
     <!--wrap終わり-->
 
     <!--footer始まり-->
-    <footer>
+    <footer class="top_footer">
       <small>(C)2021 the cork.</small>
     </footer>
     <!--footer終わり-->
@@ -105,16 +78,4 @@
     <script src="js/menu.js"></script>
     <!-- js終わり -->
 </body>
-<!-- <script src="js/jquery.bgswitcher.js"></script>
-<script>
-  jQuery(function($) {
-    if(window.matchMedia("(min-width: 959px)").matches){
-  　$('#index').bgSwitcher({
-  　　images: ['images/main_backimg3.jpg','images/main_backimg4.jpg','images/main_backimg5.jpg'],
-  　　effect: "drop",
-  　　easing: "linear"
-  　});
-  };
-  });
-  </script> -->
 </html>
