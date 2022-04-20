@@ -5,26 +5,23 @@ document.addEventListener('DOMContentLoaded', function(){
         "images/main_backimg3.jpg",
         "images/main_backimg4.jpg",
       ];
-      
+
       //カウンターの初期値設定
       var counter = 1;
-    
       // ビューポート519px以下を条件
       var mql;
       // スライドショー関数用
       var bg_slide;
-  
-      
        // // 初回ビューポートチェック
       switchSlide();
-  
+
          // // ブレイクポイントの瞬間に発火
         mql.addEventListener("change", switchSlide);
-    
+
       // ビューポートの幅でスライドショーを切り替える処理
       function switchSlide() {
         mql = window.matchMedia('screen and (max-width: 519px)');
-  
+
         //スマホ向け ビューポート 519px以下発火
         if(mql.matches){
           //PCビューにリセット（519px以下）
@@ -40,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function(){
           }
           //背景画像を設定
           document.getElementById("media_back").style.backgroundImage = "url(" + setImage[counter] + ")";
-          
           }), 3000);
         } else {
             // ビューポート 519px以上発火
@@ -48,9 +44,5 @@ document.addEventListener('DOMContentLoaded', function(){
             clearInterval(bg_slide);
           }
         };
-  
-  
-        
   });
-  
 

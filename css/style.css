@@ -53,9 +53,6 @@ body {
 
 
 
-/*----------------------
-  header
------------------------*/
 
 .cork_logo {
   vertical-align: bottom;
@@ -148,16 +145,24 @@ header {
   margin-top: 30px;
   padding:35px 0;
   z-index: 1;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .main_visual {
   display: none;
 }
 
-.content {
-  width: calc(100% - 50px);
-  margin: 0 auto;
-  margin-bottom: 400px;
+#height_container {
+  min-height: 70vh;
+}
+
+#banner {
+    opacity: 0.4;
+}
+
+#banner:hover {
+  opacity: 1;
 }
 
 
@@ -980,8 +985,14 @@ main nav li:hover {
 
   /* banner css */
 
+  #height_container {
+    min-height: 0;
+  }
+  
+
   #banner {
     margin: 0;
+    opacity: 1;
   }
 
   #banner ul {

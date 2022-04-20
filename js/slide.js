@@ -26,7 +26,6 @@
         }
         li.addEventListener('click', () => {
             mainImage.src = image;
-            //  各li要素を作るときに、同じタイミングでそれぞれにクリックイベントを作っている
             const thumbnails = document.querySelectorAll('.thumbnails > li');
             thumbnails[currentIndex].classList.remove('current');
             currentIndex = index;
