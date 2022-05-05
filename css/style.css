@@ -979,6 +979,7 @@ main nav li:hover {
   .headerContainer {
     justify-content: space-between;
     margin: 0;
+    padding: 0 20px;
   }
 
   /* #wrap_sp css */
